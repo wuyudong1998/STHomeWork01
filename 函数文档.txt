@@ -1,0 +1,24 @@
+1.插入学生
+函数名：addStu
+参数：int ID,String name,String birDate,boolean gender
+输入 ：ID，姓名，出生日期，性别
+返回：无
+2. 查找学生
+函数名：findStu
+参数：String name1
+输入 ：姓名，出生日期，性别
+返回：无
+3. 删除学生
+函数名：delStu
+参数：String name2
+输入 ：姓名
+4. 修改学生
+函数名：changeStu
+参数：String name3
+输入 ：姓名
+5. 显示所有学生
+输出：所有学生信息
+
+
+
+

@@ -1,9 +1,19 @@
 import java.util.ArrayList;
 import java.util.Scanner;
+/**
+ * @author admin
+ *
+ */
 public class StudentManger {
 	static Scanner scanner = new Scanner(System.in);
     static ArrayList<Student> arrayList = new ArrayList<>();
     
+    /**
+     * @param ID
+     * @param name
+     * @param birDate
+     * @param gender
+     */
     public static void addStu(int ID,String name,String birDate,boolean gender)
     {
 
@@ -17,6 +27,9 @@ public class StudentManger {
 
     }
 
+    /**
+     * @param name1
+     */
     public static void findStu(String name1)
     {
 
@@ -37,6 +50,9 @@ public class StudentManger {
         
     }
 
+    /**
+     * @param name2
+     */
     public static void delStu(String name2)
     {
         boolean isFindremove = false;
@@ -55,6 +71,9 @@ public class StudentManger {
         }
         System.out.println("完成操作！");
     }
+    /**
+     * @param name3
+     */
     public static void changeStu(String name3){
 
         boolean isFindchange = false;
@@ -78,6 +97,7 @@ public class StudentManger {
         }
         System.out.println("完成操作！");
     }
+   
     public static void findAll()
 {
     for (Student student1 : arrayList){
@@ -85,6 +105,7 @@ public class StudentManger {
     }
     System.out.println("完成操作！");
 }
+  
 public  static  void withdraw()
 {
 	System.out.println("感谢使用！您已退出");
@@ -95,7 +116,7 @@ public  static  void withdraw()
         boolean withdraw = true;
         while (withdraw)
         {
-        	 System.out.println("此处是为了修改github的代码所用！！！！请省略不看！！！！！！");
+        	 //System.out.println("此处是为了修改github的代码所用！！！！请省略不看！！！！！！");
             System.out.println("*****************************");
             System.out.println("*          1.插入                    *");
             System.out.println("*          2.查找                    *");
@@ -146,5 +167,4 @@ public  static  void withdraw()
                
     }
     
-
-}
+}    //StudentManger总
